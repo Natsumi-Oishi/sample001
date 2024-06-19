@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GREAT BRITAIN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="./images/logo.svg" alt="GB"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#news">MAP</a></li>
+                <li><a href="city.html">CITIES</a></li>
+                <li><a href="food.html">FOOD</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ヘッダーここまで -->
+    <h1 class="hero contact">CONTACT</h1>
+    <!-- メイン -->
+    <main>
+        <div class="line"><h2> お問い合わせ</h2></div>
+        <form action="result.html">
+            <p>
+                <label for="kind">ABOUT</label><br>
+                <select name="kind" id="kind">
+                    <option value="1">政治</option>
+                    <option value="2">イベント</option>
+                    <option value="3">その他</option>
+                </select>
+            </p>
+            <p>
+                飛行機チケットの予約<br>
+                <label><input type="radio" name="first" value="yes" checked>yes</label>
+                <label><input type="radio" name="first" value="no">no</label>
+            </p>
+            <p>
+                どのようにしてこのサイトを知りましたか?<br>
+                <label><input type="checkbox" name="how" value="friends">友達</label>
+                <label><input type="checkbox" name="how" value="ads">広告</label>
+                <label><input type="checkbox" name="how" value="sns">SNS</label>
+                <label><input type="checkbox" name="how" value="youtube">Youtube</label>
+                <label><input type="checkbox" name="how" value="other">その他</label>
+            </p>
+            <p>
+                <label for="subject">タイトル</label><br>
+                <input type="text" name="subject" id="subject">
+            </p>
+            <p>
+                <label for="message">メッセージ</label><br>
+                <textarea name="message" id="message"></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" value="SEND">
+            </p>
+        </form>
+    </main>
+    <!-- メインここまで -->
+    <!-- フッター -->
+    <footer>
+        <div class="gotop">
+            <a href="#top"><img src="./images/uk_heitai.png" alt="GO BACK TO TOP" width="100px"></a>
+        </div>
+        <div class="copyright">
+        </div>
+    </footer>
+    <!-- フッターここまで -->
+</body>
+</html>
